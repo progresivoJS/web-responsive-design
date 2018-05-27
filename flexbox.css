@@ -5,9 +5,10 @@
 }
 
 .box {
-    width: 150px;
+    width: 100%;
+    height: 150px;
 }
-
+/* 
 @media screen and (min-width: 700px) {
     .dark_blue {
         order: 3;
@@ -16,18 +17,43 @@
         order: 2;
     }
     .green {
+        width: 50%;
         order: 1;
     }
-}
+} */
 
 .dark_blue {
     background-color: darkblue;
+    order: 1;
+    width: 100%;
 }
-
 .light_blue {
     background-color: lightblue;
+    order: 2;
+    width: 33.33333%;
 }
-
 .green {
     background-color: green;
+    order: 3;
+    width: 33.33333%;
+}
+.red {
+    background-color: red;
+    order: 4;
+    width: 33.33333%;
+}
+.orange {
+    background-color: orange;
+    order: 5;
+    width: 50%;
+}
+.light_green {
+    background-color: lightgreen;
+    order: 6;
+    width: 50%;
+}
+.skyblue {
+    background-color: skyblue;
+    order: 7;
+    width: 100%;
 }
