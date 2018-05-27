@@ -1,3 +1,26 @@
 .wrapper {
     display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 20px repeat(6, 1fr) 20px; */
+    /* grid-template-columns: repeat(5, 1fr 2fr); */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-column-gap: 10px;
+    grid-row-gap: 1em; */
+    grid-auto-rows: 100px;
+    /* grid-auto-rows: minmax(100px, auto); */
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    z-index: 2;
+}
+
+.box2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    z-index: 1;
 }
